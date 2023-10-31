@@ -18,6 +18,7 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("javax:javaee-api:8.0.1")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
